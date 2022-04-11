@@ -1,0 +1,53 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: goldenrod;
+    color: #fff;
+    padding: 120px 55px;
+}
+
+.home h1 {
+    font-size: 45px;
+}
+
+.home p {
+    padding: 5px 0 0;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    .home {
+        padding: 100px 20px;
+    }
+
+    .home h1 {
+        font-size: 30px;
+    }
+    
+    .home p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .home {
+        padding: 70px 20px;
+    }
+
+    .home h1 {
+        font-size: 28px;
+    }
+    
+    .home p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home {
+        padding: 50px 10px;
+    }
+}

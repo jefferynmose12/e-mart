@@ -1,0 +1,53 @@
+.aboutus {
+    padding: 50px 55px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.about .main {
+    padding: 30px 0;
+}
+
+@media screen and (min-width: 1061px) and (max-width: 1275px) {
+    .aboutus {
+        gap: 20px;
+    }
+
+    .img0 {
+        width: 500px;
+    }
+} 
+
+
+@media screen and (max-width: 1060px) {
+    .aboutus {
+        padding: 50px 20px;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .img0 {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 542px) {
+    .img0 {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .img0 {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutus {
+        padding: 50px 10px;
+    }
+}

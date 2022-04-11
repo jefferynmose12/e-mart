@@ -1,0 +1,14 @@
+.input {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+label {
+    color: gray;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(192, 190, 190);
+}

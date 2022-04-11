@@ -1,0 +1,61 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 55px;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+.nav h2 {
+    font-size: 22px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    gap: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    text-decoration: none;
+}
+
+.list p:hover {
+    color: black;
+}
+
+.button {
+    margin-left: auto;
+    display: flex;
+    gap: 5px;
+}
+
+Link {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1050px) {
+    .nav {
+        padding: 12px 20px;
+    }
+
+    .nav h2 {
+        font-size: 18px;
+    }
+
+    .list {
+        gap: 12px;
+        font-size: 15px;
+    }
+
+    .button {
+        gap: 2px;
+    }
+}
+
+

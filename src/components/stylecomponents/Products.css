@@ -1,0 +1,107 @@
+.products {
+    padding: 50px 55px;
+}
+
+.products h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.c-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.showproduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px auto;
+}
+
+.card-grid {
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    cursor: pointer;
+    width: 20%;
+    padding: 15px 5px 25px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.card:hover {
+    box-shadow: 0px 1px 1px 0px;
+}
+
+.card-body {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.card-body p {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 0 12px;
+}
+
+@media screen and (max-width: 1050px) {
+    .products {
+        padding: 30px 20px;
+    }
+
+    .products h1 {
+        padding-bottom: 10px;
+        font-size: 23px;
+    }
+
+    .card-grid {
+        padding: 20px 0;
+        gap: 15px;
+    }
+
+    .card {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .products {
+        padding: 30px 20px;
+    }
+
+    .products h1 {
+        padding-bottom: 8px;
+        font-size: 20px;
+    }
+
+    .showproduct {
+        margin: 20px auto;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .products {
+        padding: 30px 10px;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+

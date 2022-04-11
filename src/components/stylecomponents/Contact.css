@@ -1,0 +1,78 @@
+.contacthead {
+    padding: 50px 90px;
+}
+
+.question {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 12px 0;
+}
+
+.main {
+    padding: 50px 0;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.idea {
+    padding-bottom: 20px;
+}
+
+.get {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.num {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .contacthead {
+        padding: 30px 40px;
+    }
+
+    .question h1 {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .main {
+        padding: 50px 0 0 0;
+        flex-direction: column-reverse;
+        gap: 35px;
+    }
+
+    .imageEmail {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageEmail img {
+        width: 50%;
+    }
+    
+    form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contacthead {
+        padding: 15px 10px;
+    }
+
+    .question h1 {
+        font-size: 20px;
+    }
+}
+
