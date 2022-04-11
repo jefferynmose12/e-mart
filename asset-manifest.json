@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/e-mart/static/css/main.cefa1129.css",
+    "main.js": "/e-mart/static/js/main.69a3a205.js",
+    "static/media/emart.jpg": "/e-mart/static/media/emart.6e4bba7a7855978e46ab.jpg",
+    "index.html": "/e-mart/index.html",
+    "main.cefa1129.css.map": "/e-mart/static/css/main.cefa1129.css.map",
+    "main.69a3a205.js.map": "/e-mart/static/js/main.69a3a205.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cefa1129.css",
+    "static/js/main.69a3a205.js"
+  ]
+}
